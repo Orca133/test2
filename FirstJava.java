@@ -1,15 +1,18 @@
 public class FirstJava {
         public static void main(String [] args){
-            int first = 10;
-            int second = 11;
-            int sum = first + second;
-            char a = 'k';
-            System.out.println(a);
-            System.out.println("sum is " + sum);
 
+        int a = 10;
+        int b = 111;
+        System.out.println("The sum is " + sum(a,b));
+                
 
-
-
+        
         }
+
+        public static int sum(int a, int b){
+                return a+b
+                        
+        }
+
 
 }
